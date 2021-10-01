@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+:root {
+  --cor-fundo: rgb(34, 41, 37);
+  --cor-hover: rgb(118, 180, 145);
+  --cor-primaria: rgb(231, 241, 236);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
+}
+
+body {
+  background: mediumpurple;
+}
+.centraliza-container {
+  margin: auto;
+}
+
+div {
+  width: 85%;
+  background-color: #fff;
+  padding: 3em;
+  box-shadow: 0 0 2.2em rgba(0,0,0,.2);
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul {
+  background-color: var(--cor-fundo);
+}
+
+header ul li {
+  display: inline;
+  position: relative;
+}
+
+header ul li a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .3s;
+}
+
+header ul li a:hover {
+  background-color: var(--cor-hover);
+  color: #000;
+}
+
+header ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+header ul ul {
+  width: 150px
+}
+
+header ul ul li a {
+  display: block;
+}
+
+.home {
+  float: right;
+  background-color: #FF0707;
+}
+
+img {
+  height: 15%;
+  width: 30%;
+  float: right;
+}
+
+p {
+  font-size: 12pt;
+  color: #AC59D6;
+}
+
+.backgroung {
+  height: 50%;
+  width: 100%;
+}
